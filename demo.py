@@ -1,7 +1,8 @@
-import requests
 import json
-from selenium import webdriver
 from time import sleep
+import requests
+from selenium import webdriver
+
 
 def log_cookie():
     driver = webdriver.Firefox()
