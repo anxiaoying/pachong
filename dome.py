@@ -21,7 +21,8 @@ def log_cookie():
 
     else:
         print('登录失败')
-
+    driver.close()
+    driver.quit()
 def user_data():
     session = requests.session()
     session.headers ={
