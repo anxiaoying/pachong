@@ -11,7 +11,7 @@ def log_cookie():
     dl = driver.find_element_by_xpath("//span[@class='abut showLogin']").click()
     sleep(1)
     driver.find_element_by_xpath('//*[@id="loginname"]').send_keys('17716550759')
-    driver.find_element_by_xpath('//*[@id="password"]').send_keys('ying3690')
+    driver.find_element_by_xpath('//*[@id="password"]').send_keys('*******')
     driver.find_element_by_xpath('//*[@id="login_btn"]').click()
     sleep(1)
     if driver.find_element_by_xpath('/html/body/div[1]/div[1]/div/div[3]/ul/li[1]/a').text == '马可':
